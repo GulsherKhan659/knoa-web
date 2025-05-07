@@ -23,6 +23,48 @@ Project:  Immersive AI
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+
+/* custom */
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background: rgba(255, 255, 255, 1) */
+    /* background: rgba(#00aeff, #00aeff, #00aeff, 0.4);
+    background-color:#00aeff; */
+}
+
+.logo-slide-track {
+    display: flex;
+    width: max-content;
+    animation: slide 20s linear infinite;
+    justify-content: center; /* Center logos initially */
+    align-items: center;
+    border-radius: 5px;
+}
+
+.logo-slide {
+    flex-shrink: 0;
+    margin: 0 30px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Moves half the width for seamless loop */
+    }
+}
+
+/* Pause on hover (optional) */
+.logo-slider:hover .logo-slide-track {
+    animation-play-state: paused;
+}
+
+/*  */
+
+
 body {
 	font-family: 'Manrope', sans-serif;
 }
