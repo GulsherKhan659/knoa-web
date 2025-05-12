@@ -257,8 +257,9 @@ header{
 }
 .navbar-nav .nav-item .talk_btn {
     font-weight: 600 !important;
-    padding: 8px 10px 8px 32px !important;
+    /* padding: 8px 10px 8px 32px !important; */
     border-radius: 10px;
+    width: 180px;
     color: var(--e-global-color-white) !important;
     background-color: var(--e-global-color-bright-blue);
     transition: all 0.3s ease-in-out;
