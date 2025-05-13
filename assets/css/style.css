@@ -1226,7 +1226,7 @@ header{
     background-color: var(--e-global-color-black);
     /* padding-top: 250px; */
     overflow: hidden;
-    margin-top: -300px;
+    /* margin-top: -300px; */
 }
 .middle-portion {
     margin-bottom: 82px;
